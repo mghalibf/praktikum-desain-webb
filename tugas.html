@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Icarus Velixir — Artisanal Fragrance House</title>
+
+  <!-- Bootstrap 5.3 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <!-- Google Fonts: Playfair Display & Plus Jakarta Sans -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 1. NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="#beranda">
+        <i class="bi bi-diamond-fill text-gold"></i>
+        <span class="brand-text">ICARUS VELIXIR</span>
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
+          <li class="nav-item">
+            <a class="nav-link active" href="#beranda">Beranda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#koleksi">Koleksi Parfum</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#keunggulan">Keunggulan</a>
+          </li>
+          <li class="nav-item mt-2 mt-lg-0">
+            <a href="#pesan" class="btn btn-gold btn-sm px-4 py-2 rounded-pill">Pesan Sekarang</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 2. HERO SECTION -->
+  <header id="beranda" class="hero-section d-flex align-items-center">
+    <div class="container">
+      <div class="row align-items-center gy-5">
+        <div class="col-12 col-lg-6 text-center text-lg-start">
+          <span class="badge rounded-pill badge-gold mb-3 px-3 py-2">
+            <i class="bi bi-stars me-1"></i> Extrait de Parfum Collection 2026
+          </span>
+          <h1 class="display-4 fw-bold text-white mb-3 hero-title">
+            Wujudkan Karakter Lewat <span class="text-gold fst-italic">Aroma Abadi</span>
+          </h1>
+          <p class="lead text-light-muted mb-4">
+            Racikan parfum artisan dengan konsentrasi esens 35% yang tahan hingga 12 jam. Dirancang eksklusif untuk meninggalkan kesan elegan di setiap langkah Anda.
+          </p>
+          <div class="d-flex flex-column flex-sm-row gap-3 justify-content-center justify-content-lg-start">
+            <a href="#koleksi" class="btn btn-gold btn-lg px-4 rounded-pill fw-semibold">
+              Jelajahi Koleksi <i class="bi bi-arrow-right ms-2"></i>
+            </a>
+            <a href="#pesan" class="btn btn-outline-light btn-lg px-4 rounded-pill">
+              Konsultasi Aroma
+            </a>
+          </div>
+          <div class="row mt-5 pt-3 border-top border-secondary border-opacity-25 text-center text-lg-start">
+            <div class="col-4">
+              <h4 class="text-gold fw-bold mb-0">35%</h4>
+              <small class="text-light-muted">Extrait Oil</small>
+            </div>
+            <div class="col-4">
+              <h4 class="text-gold fw-bold mb-0">12+ Jam</h4>
+              <small class="text-light-muted">Ketahanan</small>
+            </div>
+            <div class="col-4">
+              <h4 class="text-gold fw-bold mb-0">100%</h4>
+              <small class="text-light-muted">IFRA Certified</small>
+            </div>
+          </div>
+        </div>
+
+        <!-- Visual Showcase Hero -->
+        <div class="col-12 col-lg-6">
+          <div class="hero-showcase mx-auto text-center p-4 p-md-5">
+            <div class="glow-circle"></div>
+            <svg class="bottle-illustration" viewBox="0 0 220 300" width="210" height="280" xmlns="http://www.w3.org/2000/svg">
+              <!-- Tutup Botol -->
+              <rect x="85" y="20" width="50" height="42" rx="6" fill="#d4af37"/>
+              <rect x="92" y="62" width="36" height="16" fill="#b59024"/>
+              <!-- Badan Botol Kaca -->
+              <rect x="45" y="78" width="130" height="195" rx="22" fill="url(#glassGrad)" stroke="#d4af37" stroke-width="2"/>
+              <!-- Label Depan -->
+              <rect x="65" y="120" width="90" height="110" rx="8" fill="#11141c" stroke="#d4af37" stroke-width="1"/>
+              <text x="110" y="155" fill="#d4af37" font-family="serif" font-size="13" font-weight="bold" text-anchor="middle">ICARUS</text>
+              <text x="110" y="173" fill="#ffffff" font-family="sans-serif" font-size="10" letter-spacing="2" text-anchor="middle">VELIXIR</text>
+              <line x1="80" y1="186" x2="140" y2="186" stroke="#d4af37" stroke-width="0.8"/>
+              <text x="110" y="205" fill="#adb5bd" font-family="sans-serif" font-size="8" text-anchor="middle">NOIR SOLAIRE • 50ML</text>
+              <defs>
+                <linearGradient id="glassGrad" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#2a3040" stop-opacity="0.9"/>
+                  <stop offset="100%" stop-color="#141821" stop-opacity="0.95"/>
+                </linearGradient>
+              </defs>
+            </svg>
+            <div class="floating-tag shadow">
+              <i class="bi bi-award-fill text-gold me-2"></i>
+              <span>Best Seller: <strong>Noir Solaire</strong></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- 3. KOLEKSI PRODUK (MINIMAL 3 CARD + RESPONSIVE GRID) -->
+  <section id="koleksi" class="py-5 section-light">
+    <div class="container py-4">
+      <div class="text-center mb-5">
+        <span class="text-uppercase text-gold-dark fw-bold small letter-spacing-2">Signature Series</span>
+        <h2 class="fw-bold display-6 mt-1">Koleksi Parfum Terpilih</h2>
+        <p class="text-muted mx-auto max-w-600">
+          Setiap botol diracik dalam jumlah terbatas menggunakan bahan botani pilihan dari Grasse dan rempah eksotis Nusantara.
+        </p>
+      </div>
+
+      <!-- Bootstrap Grid: 1 kolom (HP), 2 kolom (Tablet), 3 kolom (Desktop) -->
+      <div class="row g-4">
+        <!-- Card 1 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card product-card h-100 border-0 shadow-sm">
+            <div class="card-banner banner-noir d-flex flex-column justify-content-between p-4">
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="badge bg-warning text-dark fw-semibold">Best Seller</span>
+                <span class="text-white-50 small">50 ml</span>
+              </div>
+              <div class="text-center my-3">
+                <i class="bi bi-droplet-half display-3 text-gold"></i>
+              </div>
+              <div class="text-white small">
+                <i class="bi bi-wind me-1 text-gold"></i> Woody • Amber • Bergamot
+              </div>
+            </div>
+            <div class="card-body d-flex flex-column p-4">
+              <h5 class="card-title fw-bold">Noir Solaire</h5>
+              <p class="card-text text-muted small flex-grow-1">
+                Perpaduan hangat kayu cendana, amber, dan kesegaran bergamot yang tegas. Cocok untuk acara formal dan malam hari.
+              </p>
+              <div class="d-flex justify-content-between align-items-center pt-3 border-top mt-3">
+                <div>
+                  <small class="text-muted d-block">Harga</small>
+                  <span class="fw-bold fs-5 text-dark">Rp 349.000</span>
+                </div>
+                <a href="#pesan" class="btn btn-dark rounded-pill px-3 pilih-produk" data-produk="Noir Solaire (Rp 349.000)">
+                  Pilih Varian
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card product-card h-100 border-0 shadow-sm">
+            <div class="card-banner banner-velvet d-flex flex-column justify-content-between p-4">
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="badge bg-light text-dark fw-semibold">New Arrival</span>
+                <span class="text-white-50 small">50 ml</span>
+              </div>
+              <div class="text-center my-3">
+                <i class="bi bi-flower1 display-3 text-gold"></i>
+              </div>
+              <div class="text-white small">
+                <i class="bi bi-wind me-1 text-gold"></i> Damask Rose • Vanilla • Musk
+              </div>
+            </div>
+            <div class="card-body d-flex flex-column p-4">
+              <h5 class="card-title fw-bold">Velvet Elysium</h5>
+              <p class="card-text text-muted small flex-grow-1">
+                Aroma lembut mawar Damask yang berpadu dengan vanilla Madagascar dan white musk untuk kesan romantis dan menenangkan.
+              </p>
+              <div class="d-flex justify-content-between align-items-center pt-3 border-top mt-3">
+                <div>
+                  <small class="text-muted d-block">Harga</small>
+                  <span class="fw-bold fs-5 text-dark">Rp 329.000</span>
+                </div>
+                <a href="#pesan" class="btn btn-dark rounded-pill px-3 pilih-produk" data-produk="Velvet Elysium (Rp 329.000)">
+                  Pilih Varian
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card product-card h-100 border-0 shadow-sm">
+            <div class="card-banner banner-aether d-flex flex-column justify-content-between p-4">
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="badge bg-info text-dark fw-semibold">Fresh Signature</span>
+                <span class="text-white-50 small">50 ml</span>
+              </div>
+              <div class="text-center my-3">
+                <i class="bi bi-tsunami display-3 text-gold"></i>
+              </div>
+              <div class="text-white small">
+                <i class="bi bi-wind me-1 text-gold"></i> Sea Salt • Neroli • Cedarwood
+              </div>
+            </div>
+            <div class="card-body d-flex flex-column p-4">
+              <h5 class="card-title fw-bold">Aether Mist</h5>
+              <p class="card-text text-muted small flex-grow-1">
+                Kesegaran angin laut, bunga neroli, dan kayu cedar yang ringan namun tahan lama. Ideal untuk aktivitas harian di iklim tropis.
+              </p>
+              <div class="d-flex justify-content-between align-items-center pt-3 border-top mt-3">
+                <div>
+                  <small class="text-muted d-block">Harga</small>
+                  <span class="fw-bold fs-5 text-dark">Rp 315.000</span>
+                </div>
+                <a href="#pesan" class="btn btn-dark rounded-pill px-3 pilih-produk" data-produk="Aether Mist (Rp 315.000)">
+                  Pilih Varian
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. KEUNGGULAN SINGKAT -->
+  <section id="keunggulan" class="py-5 bg-white border-top border-bottom">
+    <div class="container">
+      <div class="row g-4 text-center">
+        <div class="col-12 col-md-4">
+          <div class="p-3">
+            <div class="icon-box mx-auto mb-3">
+              <i class="bi bi-gem fs-4 text-gold-dark"></i>
+            </div>
+            <h5 class="fw-bold">Gratis Ukiran Nama</h5>
+            <p class="text-muted small mb-0">Personalisasi botol parfum dengan ukiran laser nama Anda atau orang tersayang.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="p-3">
+            <div class="icon-box mx-auto mb-3">
+              <i class="bi bi-shield-check fs-4 text-gold-dark"></i>
+            </div>
+            <h5 class="fw-bold">Garansi Tukar Aroma</h5>
+            <p class="text-muted small mb-0">Sertakan tester 2ml gratis di setiap paket sebelum Anda membuka segel botol utama.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="p-3">
+            <div class="icon-box mx-auto mb-3">
+              <i class="bi bi-box-seam fs-4 text-gold-dark"></i>
+            </div>
+            <h5 class="fw-bold">Pengiriman Aman</h5>
+            <p class="text-muted small mb-0">Kemasan hardbox eksklusif dengan pelindung benturan ke seluruh Indonesia.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. FORM PEMESANAN & KONSULTASI -->
+  <section id="pesan" class="py-5 hero-section text-white">
+    <div class="container py-4">
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-8">
+          <div class="form-wrapper p-4 p-md-5 rounded-4">
+            <div class="text-center mb-4">
+              <span class="text-gold text-uppercase small fw-bold">Direct Order & Custom Engraving</span>
+              <h2 class="fw-bold mt-1">Formulir Pemesanan Parfum</h2>
+              <p class="text-light-muted small">Isi detail pesanan Anda di bawah ini untuk mendapatkan gratis ukiran nama pada botol.</p>
+            </div>
+
+            <!-- Alert Konfirmasi (Muncul setelah submit) -->
+            <div id="alertSukses" class="alert alert-success d-none" role="alert">
+              <i class="bi bi-check-circle-fill me-2"></i>
+              <strong>Pesanan diterima!</strong> Tim Icarus Velixir akan segera menghubungi Anda melalui WhatsApp/Email.
+            </div>
+
+            <form id="orderForm">
+              <div class="row g-3">
+                <div class="col-12 col-md-6">
+                  <label for="namaPemesan" class="form-label">Nama Lengkap</label>
+                  <input type="text" class="form-control custom-input" id="namaPemesan" placeholder="Contoh: Muhammad Ghalib" required>
+                </div>
+                <div class="col-12 col-md-6">
+                  <label for="kontakPemesan" class="form-label">Nomor WhatsApp / Email</label>
+                  <input type="text" class="form-control custom-input" id="kontakPemesan" placeholder="0812-xxxx-xxxx" required>
+                </div>
+                <div class="col-12 col-md-8">
+                  <label for="varianParfum" class="form-label">Pilih Varian Parfum</label>
+                  <select class="form-select custom-input" id="varianParfum" required>
+                    <option value="" selected disabled>-- Pilih koleksi aroma --</option>
+                    <option value="Noir Solaire (Rp 349.000)">Noir Solaire — Woody & Amber (Rp 349.000)</option>
+                    <option value="Velvet Elysium (Rp 329.000)">Velvet Elysium — Rose & Vanilla (Rp 329.000)</option>
+                    <option value="Aether Mist (Rp 315.000)">Aether Mist — Sea Salt & Neroli (Rp 315.000)</option>
+                  </select>
+                </div>
+                <div class="col-12 col-md-4">
+                  <label for="jumlahBotol" class="form-label">Jumlah Botol</label>
+                  <input type="number" class="form-control custom-input" id="jumlahBotol" min="1" max="20" value="1" required>
+                </div>
+                <div class="col-12">
+                  <label for="ukiranNama" class="form-label">Teks Ukiran Botol & Catatan Alamat</label>
+                  <textarea class="form-control custom-input" id="ukiranNama" rows="3" placeholder="Tuliskan teks ukiran pada botol (maks. 15 karakter) serta alamat pengiriman..."></textarea>
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gratisTester" checked>
+                    <label class="form-check-label small text-light-muted" for="gratisTester">
+                      Sertakan gratis 2ml tester vial untuk uji coba aroma sebelum membuka segel.
+                    </label>
+                  </div>
+                </div>
+                <div class="col-12 mt-4">
+                  <button type="submit" class="btn btn-gold btn-lg w-100 rounded-pill fw-semibold">
+                    <i class="bi bi-bag-check me-2"></i> Kirim Pesanan Sekarang
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="py-4 bg-black text-center text-light-muted small">
+    <div class="container">
+      <p class="mb-0">&copy; 2026 Icarus Velixir Fragrance House. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5.3 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Otomatis memilih varian saat tombol "Pilih Varian" pada Card diklik
+    document.querySelectorAll('.pilih-produk').forEach(btn => {
+      btn.addEventListener('click', function () {
+        const produk = this.getAttribute('data-produk');
+        document.getElementById('varianParfum').value = produk;
+      });
+    });
+
+    // Simulasi pengiriman Form
+    document.getElementById('orderForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+      const alertBox = document.getElementById('alertSukses');
+      alertBox.classList.remove('d-none');
+      this.reset();
+    });
+  </script>
+</body>
+</html>
